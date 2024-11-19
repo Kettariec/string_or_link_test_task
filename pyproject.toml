@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "string-or-link-test-task"
+version = "0.1.0"
+description = ""
+authors = ["Kettariec <kettariec@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^8.3.3"
+aioresponses = "^0.7.7"
+aiohttp = "^3.11.3"
+pytest-asyncio = "^0.24.0"
+pytest-cov = "^6.0.0"
+pytest-mock = "^3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
